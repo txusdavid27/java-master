@@ -1,3 +1,5 @@
+package variables.numericos;
+
 import javax.swing.*;
 
 public class SistemasNumericos {

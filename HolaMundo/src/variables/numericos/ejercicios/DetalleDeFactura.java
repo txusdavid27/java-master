@@ -1,3 +1,5 @@
+package variables.numericos.ejercicios;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -32,7 +34,6 @@ public class DetalleDeFactura {
     }
 
     private static Object calcularTotal(double suma, double iva) {
-        impuesto=0.0d;
         impuesto=(suma*iva);
         return suma+impuesto;
     }
