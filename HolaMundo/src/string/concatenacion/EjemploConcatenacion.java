@@ -1,6 +1,6 @@
 package string.concatenacion;
 
-public class EjemploStringConcatenacion {
+public class EjemploConcatenacion {
     public static void main(String[] args) {
         String curso="Profe";
         String profe="Jesu";
@@ -10,8 +10,6 @@ public class EjemploStringConcatenacion {
 
         String detalle2 = curso.concat(profe);
         System.out.println(detalle2);
-
-
 
     }
 }
